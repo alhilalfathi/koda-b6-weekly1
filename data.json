@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "namaProduk": "Latte",
+        "kategori" : "WhiteMilk"
+    },
+    {
+        "id": 2,
+        "namaProduk": "Cappucino",
+        "kategori": "WhiteMilk"
+    },
+    {
+        "id": 3,
+        "namaProduk": "Kopi Susu Tetangga",
+        "kategori": "WhiteMilk"
+    }
+]
