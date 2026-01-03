@@ -94,5 +94,29 @@
         "namaProduk": "Bolu Piscok",
         "kategori": "Food",
         "harga": 13000
+    },
+    {
+        "id": 17,
+        "namaProduk": "Kukis Oatmeal Coklat",
+        "kategori": "Food",
+        "harga": 15000
+    },
+    {
+        "id": 18,
+        "namaProduk": "Caramel",
+        "kategori": "WhiteMilk",
+        "harga": 35000
+    },
+    {
+        "id": 19,
+        "namaProduk": "Kopi Filter Pagi",
+        "kategori": "Black",
+        "harga": 25000
+    },
+    {
+        "id": 20,
+        "namaProduk": "kopi Filter Sore",
+        "kategori": "Black",
+        "harga": 28000
     }
 ]
