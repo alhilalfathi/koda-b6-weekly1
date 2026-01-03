@@ -20,7 +20,7 @@
     {
         "id": 4,
         "namaProduk": "Mocha",
-        "kategori":"WhiteMilk",
+        "kategori": "WhiteMilk",
         "harga": 31000
     },
     {
@@ -44,7 +44,7 @@
     {
         "id": 8,
         "namaProduk": "Espresso",
-        "kategori":"Black",
+        "kategori": "Black",
         "harga": 18000
     },
     {
@@ -56,19 +56,43 @@
     {
         "id":10,
         "namaProduk": "Earl Grey Milk Tea",
-        "kategori":"Non Cofee",
+        "kategori": "Non Cofee",
         "harga": 31000
     },
     {
         "id": 11,
         "namaProduk": "Teh Jawa",
-        "kategori":"Non Cofee",
+        "kategori": "Non Cofee",
         "harga": 22000
     },
     {
         "id": 12,
         "namaProduk": "Kelapa Jeruk",
-        "kategori":"Non Cofee",
+        "kategori": "Non Cofee",
         "harga": 26000
+    },
+    {
+        "id": 13,
+        "namaProduk": "Bolu Gula Aren",
+        "kategori": "Food",
+        "harga": 13000
+    },
+    {
+        "id": 14,
+        "namaProduk": "Tahu Schotel",
+        "kategori": "Food",
+        "harga": 8000
+    },
+    {
+        "id": 15,
+        "namaProduk": "Lumpia Goreng",
+        "kategori": "Food",
+        "harga": 8000
+    },
+    {
+        "id": 16,
+        "namaProduk": "Bolu Piscok",
+        "kategori": "Food",
+        "harga": 13000
     }
 ]
