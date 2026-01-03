@@ -1,17 +1,74 @@
 [
     {
         "id": 1,
-        "namaProduk": "Latte",
-        "kategori" : "WhiteMilk"
+        "namaProduk": "Kopi Susu Tetangga",
+        "kategori" : "WhiteMilk",
+        "harga": 22000
     },
     {
         "id": 2,
         "namaProduk": "Cappucino",
-        "kategori": "WhiteMilk"
+        "kategori": "WhiteMilk",
+        "harga": 31000
     },
     {
         "id": 3,
-        "namaProduk": "Kopi Susu Tetangga",
-        "kategori": "WhiteMilk"
+        "namaProduk": "Latte",
+        "kategori": "WhiteMilk",
+        "harga": 31000
+    },
+    {
+        "id": 4,
+        "namaProduk": "Mocha",
+        "kategori":"WhiteMilk",
+        "harga": 31000
+    },
+    {
+        "id": 5,
+        "namaProduk": "Kopi Hitam Tetangga",
+        "kategori": "Black",
+        "harga": 20000
+    },
+    {
+        "id": 6,
+        "namaProduk": "Long Black",
+        "kategori": "Black",
+        "harga": 28000
+    },
+    {
+        "id": 7,
+        "namaProduk": "Cold Drip Sore",
+        "kategori": "Black",
+        "harga": 25000
+    },
+    {
+        "id": 8,
+        "namaProduk": "Espresso",
+        "kategori":"Black",
+        "harga": 18000
+    },
+    {
+        "id": 9,
+        "namaProduk": "Chocolate",
+        "kategori": "Non Cofee",
+        "harga": 33000
+    },
+    {
+        "id":10,
+        "namaProduk": "Earl Grey Milk Tea",
+        "kategori":"Non Cofee",
+        "harga": 31000
+    },
+    {
+        "id": 11,
+        "namaProduk": "Teh Jawa",
+        "kategori":"Non Cofee",
+        "harga": 22000
+    },
+    {
+        "id": 12,
+        "namaProduk": "Kelapa Jeruk",
+        "kategori":"Non Cofee",
+        "harga": 26000
     }
 ]
