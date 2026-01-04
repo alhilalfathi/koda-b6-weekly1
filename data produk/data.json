@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "namaProduk": "Kopi Susu Tetangga",
+        "kategori" : "WhiteMilk",
+        "harga": 22000
+    },
+    {
+        "id": 2,
+        "namaProduk": "Cappucino",
+        "kategori": "WhiteMilk",
+        "harga": 31000
+    },
+    {
+        "id": 3,
+        "namaProduk": "Latte",
+        "kategori": "WhiteMilk",
+        "harga": 31000
+    },
+    {
+        "id": 4,
+        "namaProduk": "Mocha",
+        "kategori": "WhiteMilk",
+        "harga": 31000
+    },
+    {
+        "id": 5,
+        "namaProduk": "Kopi Hitam Tetangga",
+        "kategori": "Black",
+        "harga": 20000
+    },
+    {
+        "id": 6,
+        "namaProduk": "Long Black",
+        "kategori": "Black",
+        "harga": 28000
+    },
+    {
+        "id": 7,
+        "namaProduk": "Cold Drip Sore",
+        "kategori": "Black",
+        "harga": 25000
+    },
+    {
+        "id": 8,
+        "namaProduk": "Espresso",
+        "kategori": "Black",
+        "harga": 18000
+    },
+    {
+        "id": 9,
+        "namaProduk": "Chocolate",
+        "kategori": "Non Cofee",
+        "harga": 33000
+    },
+    {
+        "id":10,
+        "namaProduk": "Earl Grey Milk Tea",
+        "kategori": "Non Cofee",
+        "harga": 31000
+    },
+    {
+        "id": 11,
+        "namaProduk": "Teh Jawa",
+        "kategori": "Non Cofee",
+        "harga": 22000
+    },
+    {
+        "id": 12,
+        "namaProduk": "Kelapa Jeruk",
+        "kategori": "Non Cofee",
+        "harga": 26000
+    },
+    {
+        "id": 13,
+        "namaProduk": "Bolu Gula Aren",
+        "kategori": "Food",
+        "harga": 13000
+    },
+    {
+        "id": 14,
+        "namaProduk": "Tahu Schotel",
+        "kategori": "Food",
+        "harga": 8000
+    },
+    {
+        "id": 15,
+        "namaProduk": "Lumpia Goreng",
+        "kategori": "Food",
+        "harga": 8000
+    },
+    {
+        "id": 16,
+        "namaProduk": "Bolu Piscok",
+        "kategori": "Food",
+        "harga": 13000
+    },
+    {
+        "id": 17,
+        "namaProduk": "Kukis Oatmeal Coklat",
+        "kategori": "Food",
+        "harga": 15000
+    },
+    {
+        "id": 18,
+        "namaProduk": "Caramel",
+        "kategori": "WhiteMilk",
+        "harga": 35000
+    },
+    {
+        "id": 19,
+        "namaProduk": "Kopi Filter Pagi",
+        "kategori": "Black",
+        "harga": 25000
+    },
+    {
+        "id": 20,
+        "namaProduk": "kopi Filter Sore",
+        "kategori": "Black",
+        "harga": 28000
+    }
+]
