@@ -133,7 +133,8 @@ function handleInput(input) {
       tampilCart();
       const total = hitungTotalCart();
       getInvoice(getCart(),total);
-      // getInvoiceList();
+      // const histori = getInvoiceList();
+      // console.log(histori)
       resetCart();
       console.log("\nTerima kasih Pesanan Selesai");
       process.stdin.pause();

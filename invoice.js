@@ -27,5 +27,5 @@ export function tampilInvoice(invoice) {
 }
 
 export function getInvoiceList() {
-  return console.log(invoiceList);  
+  return invoiceList;  
 }
