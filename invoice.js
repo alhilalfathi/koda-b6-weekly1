@@ -13,7 +13,7 @@ export function getInvoice(cart, total) {
 }
 
 export function tampilInvoice(invoice) {
-  console.log("\n===== INVOICE PEMBELIAN =====");
+  console.log("\n======== INVOICE PEMBELIAN ========");
   console.log(`Tanggal: ${invoice.tanggal}\n`);
 
   invoice.items.forEach(item => {
@@ -22,7 +22,7 @@ export function tampilInvoice(invoice) {
     );
   });
 
-  console.log("-----------------------------");
+  console.log("-------------------------------");
   console.log(`TOTAL BAYAR: Rp${invoice.total}`);
 }
 

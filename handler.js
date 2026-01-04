@@ -22,7 +22,7 @@ let produkDipilih = null;
 
 function tampilMenuUtama() {
   const kategori = getKategoriList();
-  console.log("\n=== MENU KATEGORI ===");
+  console.log("\n======= MENU KATEGORI =======");
   for (let i = 0; i < kategori.length; i++) {
     console.log(`${i + 1}. ${kategori[i]}`);
   }
@@ -31,7 +31,7 @@ function tampilMenuUtama() {
 
 function tampilProduk(kategori) {
   const produk = getProdukByKategori(kategori);
-  console.log(`\n=== MENU ${kategori.toUpperCase()} ===`);
+  console.log(`\n====== MENU ${kategori.toUpperCase()} ======`);
   for (let i = 0; i < produk.length; i++) {
     console.log(`${produk[i].id}. ${produk[i].namaProduk} - Rp${produk[i].harga}`);
   }
@@ -41,7 +41,7 @@ function tampilProduk(kategori) {
 function tampilCart() {
   const cart = getCart();
 
-  console.log("\n=== KERANJANG BELANJA ===");
+  console.log("\n====== KERANJANG BELANJA ======");
   if (cart.length === 0) {
     console.log("Keranjang kosong");
     return;
@@ -54,7 +54,7 @@ function tampilCart() {
     );
   }
 
-  console.log("------------------------");
+  console.log("----------------------------");
   console.log(`TOTAL: Rp${hitungTotalCart()}`);
 }
 
@@ -112,7 +112,7 @@ function handleInput(input) {
     tambahKeCart(produkDipilih, jumlah);
     console.log("Produk ditambahkan ke keranjang");
 
-    console.log("\n1. Pesan lagi");
+    console.log("1. Pesan lagi");
     console.log("2. Lihat keranjang");
     console.log("3. Checkout");
     console.log("Pilih opsi:");
