@@ -139,6 +139,11 @@ function handleInput(input) {
       console.log("\nTerima kasih Pesanan Selesai");
       process.stdin.pause();
     } 
+    // else if (value === "4") {
+    //   const histori = getInvoiceList();
+    //   console.log(histori);
+    //   process.stdin.pause();
+    // } 
     else {
       console.log("Pilihan tidak valid:");
     }
