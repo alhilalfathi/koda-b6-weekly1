@@ -40,20 +40,17 @@ function tampilProduk(kategori) {
 
 function tampilCart() {
   const cart = getCart();
-
   console.log("\n====== KERANJANG BELANJA ======");
   if (cart.length === 0) {
     console.log("Keranjang kosong");
     return;
   }
-
   for (let i = 0; i < cart.length; i++) {
     const item = cart[i];
     console.log(
       `${i + 1}. ${item.namaProduk} x${item.jumlah} = Rp${item.harga * item.jumlah}`
     );
   }
-
   console.log("----------------------------");
   console.log(`TOTAL: Rp${hitungTotalCart()}`);
 }
@@ -78,12 +75,10 @@ function handleInput(input) {
   if (step === 0) {
     const kategoriList = getKategoriList();
     const index = parseInt(value) - 1;
-
     if (index < 0 || index >= kategoriList.length) {
       console.log("Kategori tidak valid:");
       return;
     }
-
     kategoriDipilih = kategoriList[index];
     tampilProduk(kategoriDipilih);
     step = 1;
@@ -91,27 +86,22 @@ function handleInput(input) {
 
   else if (step === 1) {
     produkDipilih = getProdukById(parseInt(value));
-
     if (!produkDipilih || produkDipilih.kategori !== kategoriDipilih) {
       console.log("Produk tidak tersedia:");
       return;
     }
-
     console.log(`Jumlah ${produkDipilih.namaProduk} yang diinginkan:`);
     step = 2;
   }
 
   else if (step === 2) {
     const jumlah = parseInt(value);
-
     if (isNaN(jumlah) || jumlah <= 0) {
       console.log("Jumlah tidak valid:");
       return;
     }
-
     tambahKeCart(produkDipilih, jumlah);
     console.log("Produk ditambahkan ke keranjang");
-
     console.log("1. Pesan lagi");
     console.log("2. Lihat keranjang");
     console.log("3. Checkout");
